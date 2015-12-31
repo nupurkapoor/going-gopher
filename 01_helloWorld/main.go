@@ -6,6 +6,6 @@ var fname string = "Nupur"
 
 func main() {
 	lname := `Kapoor` // back-ticks work like double-quotes
-	fmt.Println("Namaste World!! I am", fname, lname)
+	fmt.Println("Hello World!! I am", fname, lname)
 
 }
