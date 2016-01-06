@@ -21,7 +21,7 @@ func main() {
 	fmt.Println(k, l, m) // prints 1 false three
 
 	fmt.Println(a) // am not sure how this is different than using %v, looks same! ??
-	fmt.Printf("%v \n", b)
+	fmt.Printf("%v \n", b) // %v is a value printed in its default format, so it figures, for you, what kind of variable it is and what kind of print formatting is required.
 	fmt.Printf("%v \n", c)
 	fmt.Printf("%v \n", d)
 	fmt.Printf("%v \n", e)
@@ -31,7 +31,7 @@ func main() {
 
 	fmt.Println("####### %T version #######")
 
-	fmt.Printf("%T \n", a)
+	fmt.Printf("%T \n", a) // %T prints the "type" of the value
 	fmt.Printf("%T \n", b)
 	fmt.Printf("%T \n", c)
 	fmt.Printf("%T \n", d)
