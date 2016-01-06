@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+var fname string = "Nupur"
+
 func main() {
-	fmt.Println("Namaste World!!")
+	lname := `Kapoor` // back-ticks work like double-quotes
+	fmt.Println("Namaste World!! I am", fname, lname)
+
 }
